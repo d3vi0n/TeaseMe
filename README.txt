@@ -1,10 +1,9 @@
-
 TeaseMe v0.0.7 (January 2011)
 
 TeaseMe is a small non commercial private "fun program" for adults 
 by Takenaga and d3vi0n
 
-Original thread:
+Original thread with more teases:
 http://www.milovana.com/forum/viewtopic.php?f=2&t=6993
 
 
@@ -15,18 +14,15 @@ Download it here: http://www.microsoft.com
 
 
 Description
--------------------------
+---------------
 A tease is basicly a slideshow with instructions and text.
 
-TeaseMe gives you the possibility to create and play offline teases 
-similar to the teases at http://www.milovana.com. 
-All you need are images or movies and a script (as xml-file)
-Teases are added into the "/teases/"-folder
+TeaseMe gives you the possibility to create, play and import teases 
+similar to the flashteases at http://www.milovana.com. See the tutorial.xml
+for help on creating own teases
 
-see the samples for help on creating own teases
+Teases are added into the "/teases"-folder of TeaseMe
 
-
-You can create your own teases with xml-Scripts and (new:) import flashteases from milovana.com.
 
 Features
 ---------------
@@ -34,27 +30,31 @@ Features
 - sizable window with large imageframe
 - create your own offline teases
 - sort your tease into pages and add instructions
-- (new:) support for html in instructiontext (including hyperlinks)
-- use pictures, video with high resolution and audio as media
-- (new:) support for online images, video, audio (use full url incl. http:// as id)
+- support for html in instructiontext (including hyperlinks)
+- use pictures, video with high resolution and audio as media 
+- support for online images, video, audio (use full url incl. http:// as id)
 - combine a picture and a audio file on the same page
 - use custom buttons and delays (hidden, secret, visible) for navigation
 - add custom metronome to pages
 - randomize navigation target, delay length and metronome bpm
-- conditional manipulation with set/unset and if-set/if-not-set attributes
-- (new:) support for set/unset multiple flags
-- debug mode (Ctrl+Shift+D) for better testing
-- (new:) import milovana flashteases
-- (new:) play a detailed tutorial (sample.xml) and learn how it works
+- conditional manipulation with set/unset and if-set/if-not-set attributes 
+- support for set/unset multiple flags
+- debug mode (Ctrl+Shift+D) for better testing  
+- import milovana flashteases 
+- play a detailed tutorial (tutorial.xml) and learn how it works
+- download more optional teases at official thread
 
 For more online teases visit http://www.milovana.com/
+
+For more TeaseMe teases visit original thread:
+http://www.milovana.com/forum/viewtopic.php?f=2&t=6993
 
 
 Update History
 (January 8, 2012)
---------------------
+-------------------
 
-(new:) v0.0.7 (by Takenaga)
+v0.0.7 (by Takenaga)
 - import milovana flashteases
 - support for html in instructiontext (including hyperlinks)
 - new detailed tutorial (sample.xml) for new players and creators replaces old samples
@@ -64,8 +64,6 @@ Update History
 - download splitted into basic version (with tutorial) and optional teasepack
 - removed the about box again (the button just used space) 
 
-
--------------------------
 v0.0.6 (by Takenaga)
 - converted to C# 
 - new XML-fomat, much easier to type and read.
@@ -75,7 +73,6 @@ v0.0.6 (by Takenaga)
 - more than 5 buttons are supported now (but who needs so many?)
 - add audio to images.
 - some layout tweaks.
-
 
 v0.0.5 (by d3vi0n)
 - fixed an error for randomizer 
